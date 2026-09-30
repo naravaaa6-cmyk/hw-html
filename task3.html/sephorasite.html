@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<head>
+
+  <title>Sephora - Makeup, Skincare, Fragrance</title>
+
+  <style>
+
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      color: #000;
+      background: #fff;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .top-bar {
+      background: #000;
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+      font-size: 14px;
+    }
+
+
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 15px 40px;
+      border-bottom: 1px solid #ddd;
+    }
+
+    .logo {
+      font-size: 28px;
+      font-weight: bold;
+      letter-spacing: 4px;
+    }
+
+    .search {
+      width: 40%;
+      padding: 10px 15px;
+      border: 1px solid #999;
+      border-radius: 20px;
+      font-size: 14px;
+    }
+
+    .header-links a {
+      margin-left: 20px;
+      font-size: 14px;
+    }
+
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      padding: 15px;
+      border-bottom: 1px solid #ddd;
+      font-size: 14px;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+  
+    .banner {
+      background: #f3d9de;
+      text-align: center;
+      padding: 80px 20px;
+    }
+
+    .banner h1 {
+      font-size: 40px;
+      margin-bottom: 15px;
+    }
+
+    .banner p {
+      font-size: 18px;
+      margin-bottom: 25px;
+    }
+
+    .btn {
+      display: inline-block;
+      background: #000;
+      color: #fff;
+      padding: 12px 30px;
+      font-size: 14px;
+      font-weight: bold;
+    }
+
+    .btn:hover {
+      background: #444;
+    }
+
+   
+    section {
+      padding: 40px;
+    }
+
+    section h2 {
+      text-align: center;
+      margin-bottom: 30px;
+      font-size: 26px;
+    }
+
+    .categories {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .category {
+      width: 200px;
+      height: 140px;
+      background: #eee;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+      font-size: 18px;
+    }
+
+  
+    .products {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .product {
+      width: 220px;
+      text-align: center;
+      border: 1px solid #ddd;
+      padding: 15px;
+    }
+
+    .product .photo {
+      height: 180px;
+      background: #f5f5f5;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 60px;
+      margin-bottom: 10px;
+    }
+
+    .product .brand {
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    .product .name {
+      font-size: 14px;
+      color: #555;
+      margin-bottom: 8px;
+    }
+
+    .product .price {
+      font-weight: bold;
+    }
+
+
+    footer {
+      background: #000;
+      color: #fff;
+      padding: 40px;
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      gap: 20px;
+      font-size: 14px;
+    }
+
+    footer h4 {
+      margin-bottom: 10px;
+    }
+
+    footer p {
+      margin-bottom: 6px;
+      color: #ccc;
+    }
+
+    .copyright {
+      background: #000;
+      color: #999;
+      text-align: center;
+      padding: 15px;
+      font-size: 12px;
+      border-top: 1px solid #333;
+    }
+  </style>
+</head>
+
+<body>
+
+
+  <div class="top-bar">
+    Good morning, Beautiful! Join Beauty Insider to earn points with every purchase.
+  </div>
+
+ 
+  <header>
+    <div class="logo">SEPHORA</div>
+    <input class="search" type="text" placeholder="Search">
+    <div class="header-links">
+      <a href="#">Sign In</a>
+      <a href="#">Lists</a>
+      <a href="#">Basket</a>
+    </div>
+  </header>
+
+
+  <nav>
+    <a href="#">New</a>
+    <a href="#">Brands</a>
+    <a href="#">Makeup</a>
+    <a href="#">Skincare</a>
+    <a href="#">Hair</a>
+    <a href="#">Fragrance</a>
+    <a href="#">Offers</a>
+  </nav>
+
+
+  <div class="banner">
+    <h1>New KAYALI Fragrance</h1>
+    <p>Boujee Kitty Caramel Milk. Only at Sephora.</p>
+    <a href="#" class="btn">SHOP NOW</a>
+  </div>
+
+
+  <section>
+    <h2>Shop by Category</h2>
+    <div class="categories">
+      <div class="category">Makeup</div>
+      <div class="category">Skincare</div>
+      <div class="category">Hair</div>
+      <div class="category">Fragrance</div>
+    </div>
+  </section>
+
+ 
+  <section>
+    <h2>Top Picks</h2>
+    <div class="products">
+
+      <div class="product">
+       <img src ="https://www.sephora.com/productimages/sku/s2748333-main-zoom.jpg?imwidth=630">
+        <p class="brand">Rare Beauty</p>
+        <p class="name">Soft Pinch Liquid Blush</p>
+        <p class="price">$23.00</p>
+      </div>
+
+      <div class="product">
+        <img src="https://www.sephora.com/productimages/sku/s2994127-main-zoom.jpg?pb=clean-at-sephora&imwidth=630">
+        <p class="brand">K18</p>
+        <p class="name">Longevity Scalp Serum</p>
+        <p class="price">$85.00</p>
+      </div>
+
+      <div class="product">
+       <img src="https://www.sephora.com/productimages/sku/s2948198-main-zoom.jpg?imwidth=1224">
+        <p class="brand">KAYALI</p>
+        <p class="name">Boujee Kitty Caramel Milk</p>
+        <p class="price">$98.00</p>
+      </div>
+
+      <div class="product">
+       <img src="https://www.sephora.com/productimages/sku/s2327245-main-zoom.jpg?imwidth=630">
+        <p class="brand">Fenty Beauty</p>
+        <p class="name">Gloss Bomb Lip Luminizer</p>
+        <p class="price">$21.00</p>
+      </div>
+
+    </div>
+  </section>
+
+
+  <footer>
+    <div>
+      <h4>About Sephora</h4>
+      <p>About Us</p>
+      <p>Careers</p>
+      <p>Sephora Stories</p>
+    </div>
+    <div>
+      <h4>Help</h4>
+      <p>Customer Service</p>
+      <p>Delivery and Returns</p>
+      <p>Track Order</p>
+    </div>
+    <div>
+      <h4>Beauty Insider</h4>
+      <p>Rewards</p>
+      <p>Credit Card</p>
+      <p>Join Now</p>
+    </div>
+  </footer>
+
+  <div class="copyright">
+    © 2026 Sephora.
+  </div>
+
+</body>
+</html>
