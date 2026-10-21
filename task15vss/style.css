@@ -7,8 +7,8 @@ body {
 
 .container {
   display: grid;
-  grid-template-columns: 2fr 1fr 2fr 4fr 2fr;   /* 5 columns */
-  grid-template-rows: 150px 150px 150px 150px;  /* 4 rows */
+  grid-template-columns: 2fr 1fr 2fr 4fr 2fr;   
+  grid-template-rows: 150px 150px 150px 150px;  
   gap: 2px;
   background-color: white;
   height: 600px;
