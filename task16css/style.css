@@ -1,0 +1,46 @@
+html, body{
+    margin: 0;
+    background-color: black;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+ .row {
+  display: grid;
+  gap: 36px;
+  margin-bottom: 36px;
+}
+
+.r1 {
+  grid-template-columns: 2fr 1fr;
+  height: 480px;
+}
+
+.r2 {
+  grid-template-columns: 1fr 2fr 1fr;
+  height: 380px;
+}
+
+.item{
+    display: block;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-decoration: none;
+    }
+.caption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  text-align: center;
+  padding-top: 170px;
+  box-sizing: border-box;
+}    
+.p1 { background-image: url("https://preview.colorlib.com/theme/shutter/images/img_1.jpg"); }
+.p2 { background-image: url("https://preview.colorlib.com/theme/shutter/images/img_2.jpg"); }
+.p3 { background-image: url("https://preview.colorlib.com/theme/shutter/images/img_3.jpg"); }
+.p4 { background-image: url("https://preview.colorlib.com/theme/shutter/images/img_4.jpg"); }
+.p5 { background-image: url("https://preview.colorlib.com/theme/shutter/images/img_5.jpg"); }
