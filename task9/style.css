@@ -5,7 +5,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
-  width: 1020px;          /* 2 карточки по 495px + gap 30px */
+  width: 1020px;         
 }
 
 .card {
@@ -23,7 +23,7 @@ body {
 .blue   { background-color: #0a4fd8; }
 .black  { background-color: #181818; }
 
-/* Чип */
+
 .chip {
   width: 54px;
   height: 44px;
@@ -40,16 +40,16 @@ body {
   background-repeat: no-repeat;
 }
 
-/* Номер карты */
+
 .number {
   font-family: "Consolas", "DejaVu Sans Mono", monospace;
   font-size: 34px;
   letter-spacing: 2px;
-  white-space: nowrap;     /* запрет переноса на 2 строки */
+  white-space: nowrap;     
   margin: 14px 0 10px 0;
 }
 
-/* Имя */
+
 .name {
   font-family: "Consolas", "DejaVu Sans Mono", monospace;
   font-weight: bold;
@@ -57,7 +57,7 @@ body {
   letter-spacing: 1px;
 }
 
-/* Срок действия */
+
 .valid {
   position: absolute;
   left: 22px;
@@ -69,7 +69,7 @@ body {
   font-size: 26px;
 }
 
-/* VISA */
+
 .visa {
   position: absolute;
   right: 32px;
