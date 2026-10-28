@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  height: 135px;
+  padding: 0 20px;
+}
+
+.logo {
+  font-size: 36px;
+  letter-spacing: 10px;
+  font-weight: normal;
+  margin-right: 50px;
+}
+
+.search {
+  width: 400px;
+  height: 45px;
+  border: 2px solid black;
+  border-radius: 25px;
+  padding-left: 20px;
+  font-size: 18px;
+  margin-right: 50px;
+}
+
+.header-item {
+  margin-right: 40px;
+  font-size: 18px;
+}
+
+.new {
+  background-color: black;
+  color: white;
+  font-size: 10px;
+  padding: 2px 4px;
+}
+
+.icon {
+  font-size: 35px;
+  margin-left: 20px;
+}
+
+.menu {
+  background-color: black;
+  height: 66px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.banners {
+  display: flex;
+  gap: 12px;
+  padding: 12px 17px;
+  overflow: hidden;
+}
+
+.banner {
+  background-color: #c8c8cc;
+  width: 817px;
+  height: 545px;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.banner-title {
+  background-color: black;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 14px 18px;
+  display: inline-block;
+}
+
+.banner-img {
+  width: 250px;
+  margin: 40px 0 0 80px;
+}
+
+.title {
+  font-size: 30px;
+  margin: 30px 24px 5px 24px;
+}
+
+.subtitle {
+  font-size: 20px;
+  margin-left: 24px;
+}
+
+.card {
+  width: 297px;
+  height: 360px;
+  margin-left: 24px;
+  padding: 20px;
+  box-shadow: 0 0 5px gray;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.card h3 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.bottle-img {
+  width: 150px;
+  display: block;
+  margin: 30px auto;
+}
