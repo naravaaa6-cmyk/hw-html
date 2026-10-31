@@ -1,0 +1,52 @@
+.hero {
+  min-height: 80vh;
+  background-image: url(https://cdn.wallpapersafari.com/97/8/gpJN1z.jpg );
+  background-size: cover;
+  background-position: center;
+}
+
+.navbar .nav-link {
+  color: white;
+}
+.categories {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 48px 48px 60px;
+}
+
+.cat {
+  display: block;
+  color: #000000;
+  text-decoration: none;
+}
+
+.cat-img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+  background-color: #eeeeee;
+  border-radius: 12px;
+}
+
+.cat p {
+  margin: 10px 0 0;
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: #000000;
+}
+
+.categories h2 {
+  margin: 60px 0 0;
+  font-size: 2.8rem;
+  font-weight: 300;
+  color: #000000;
+}
+
+@media (max-width: 576px) {
+  .categories {
+    padding: 24px 16px 40px;
+  }
+  .categories h2 {
+    font-size: 2rem;
+  }
+}
